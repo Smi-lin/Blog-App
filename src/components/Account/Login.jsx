@@ -7,7 +7,7 @@ const Login = () => {
 
   return (
     <Box>
-        <img src=''/>
+        <img src={imageUrl} alt='Login'/>
     </Box>
   )
 }
