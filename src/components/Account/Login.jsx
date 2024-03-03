@@ -3,7 +3,7 @@ import {Box} from "@mui/material"
 
 const Login = () => {
 
-    const imageUrl = 
+    const imageUrl = "https://"
 
   return (
     <Box>Hello</Box>
