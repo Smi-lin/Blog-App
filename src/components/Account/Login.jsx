@@ -7,7 +7,7 @@ const Login = () => {
 
   return (
     <Box>
-        <img/>
+        <img src=''/>
     </Box>
   )
 }
