@@ -6,7 +6,9 @@ const Login = () => {
     const imageUrl = "https://www.siesta.it/wp-content/uploads/2021/03/logo-blog-siesta-transparente.png"
 
   return (
-    <Box>Hello</Box>
+    <Box>
+        <img/>
+    </Box>
   )
 }
 
