@@ -9,6 +9,7 @@ const Login = () => {
     <Box>
         <img src={imageUrl} alt='Login'/>
         <TextField/>
+        <TextField/>
     </Box>
   )
 }
