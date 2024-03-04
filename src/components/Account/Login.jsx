@@ -8,8 +8,8 @@ const Login = () => {
   return (
     <Box>
         <img src={imageUrl} alt='Login'/>
-        <TextField/>
-        <TextField/>
+        <TextField variant="standard" />
+        <TextField variant="standard" />
     </Box>
   )
 }
