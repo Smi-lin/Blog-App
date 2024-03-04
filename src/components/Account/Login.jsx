@@ -10,7 +10,7 @@ const Login = () => {
         <img src={imageUrl} alt='Login'/>
         <TextField variant="standard" />
         <TextField variant="standard" />
-        <Button/>
+        <Button variant='contained'>Login</Button>
     </Box>
   )
 }
