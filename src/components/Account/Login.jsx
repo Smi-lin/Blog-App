@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, TextField, Button} from "@mui/material"
+import {Box, TextField, Button, styled} from "@mui/material"
 
 const Login = () => {
 
@@ -11,7 +11,7 @@ const Login = () => {
         <TextField variant="standard" />
         <TextField variant="standard" />
         <Button variant='contained'>Login</Button>
-        <Button></Button>
+        <Button>Create an Account</Button>
     </Box>
   )
 }
