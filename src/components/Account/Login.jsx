@@ -8,7 +8,7 @@ const Component = styled(Box)`
 `;
 
 const Image = styled('Box') ({
-  
+  width: 100
 })
 
 const Login = () => {
