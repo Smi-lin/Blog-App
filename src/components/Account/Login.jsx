@@ -4,7 +4,7 @@ import { Box, TextField, Button, styled } from "@mui/material";
 const Component = styled(Box)`
   width: 400px;
   margin: auto;
-  box-shadow: 
+  box-shadow: 5px 2px 5px 2px rgba(0 0 0/ 0.6)
 `
 
 const Login = () => {
