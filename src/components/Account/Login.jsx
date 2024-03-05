@@ -4,12 +4,15 @@ import { Box, TextField, Button, styled } from "@mui/material";
 const Component = styled(Box)`
   width: 400px;
   margin: auto;
-  box-shadow: 5px 2px 5px 2px rgba(0 0 0/ 0.6);
+  box-shadow: 5px 2px 5px 2px rgb(0 0 0/ 0.6);
 `;
 
 const Image = styled('img')({
-  width: 100
-})
+  width: 100,
+  margin: "auto",
+  display: "flex",
+  padding: "50px 0 0",
+});
 
 const Login = () => {
   const imageUrl =
@@ -17,11 +20,15 @@ const Login = () => {
 
   return (
     <Component>
-      <img src={imageUrl} alt="Login" />
-      <TextField variant="standard" />
-      <TextField variant="standard" />
-      <Button variant="contained">Login</Button>
-      <Button>Create an Account</Button>
+      <Box>
+        <Image src={imageUrl} alt="Login" />
+        <Box>
+          <TextField variant="standard" />
+          <TextField variant="standard" />
+          <Button variant="contained">Login</Button>
+          <Button>Create an Account</Button>
+        </Box>
+      </Box>
     </Component>
   );
 };
