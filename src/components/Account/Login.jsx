@@ -7,7 +7,7 @@ const Component = styled(Box)`
   box-shadow: 5px 2px 5px 2px rgba(0 0 0/ 0.6);
 `;
 
-const Image = styled('Box') ({
+const Image = styled('img')({
   width: 100
 })
 
