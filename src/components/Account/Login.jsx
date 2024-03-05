@@ -1,21 +1,25 @@
-import React from 'react'
-import {Box, TextField, Button, styled} from "@mui/material"
+import React from "react";
+import { Box, TextField, Button, styled } from "@mui/material";
 
-const component = styled(Box)`width: 400px`;
+const Component = styled(Box)`
+  width: 400px;
+  margin: auto;
+  
+`
 
 const Login = () => {
-
-    const imageUrl = "https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png"
+  const imageUrl =
+    "https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png";
 
   return (
-    <Box>
-        <img src={imageUrl} alt='Login'/>
-        <TextField variant="standard" />
-        <TextField variant="standard" />
-        <Button variant='contained'>Login</Button>
-        <Button>Create an Account</Button>
-    </Box>
-  )
-}
+    <Component>
+      <img src={imageUrl} alt="Login" />
+      <TextField variant="standard" />
+      <TextField variant="standard" />
+      <Button variant="contained">Login</Button>
+      <Button>Create an Account</Button>
+    </Component>
+  );
+};
 
-export default Login
+export default Login;
