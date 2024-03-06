@@ -38,7 +38,7 @@ const Login = () => {
           <TextField variant="standard" />
           <TextField variant="standard" />
           <Button variant="contained">Login</Button>
-          <p>OR</p>
+          <Typography>OR</Typography>
           <Button>Create an Account</Button>
         </Wrapper>
       </Box>
