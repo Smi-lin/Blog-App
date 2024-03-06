@@ -14,6 +14,11 @@ const Image = styled('img')({
   padding: "50px 0 0",
 });
 
+const Wrapper = styled(Box)`
+  padding: 25px 35px;
+  display: flex;
+`
+
 const Login = () => {
   const imageUrl =
     "https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png";
@@ -22,12 +27,12 @@ const Login = () => {
     <Component>
       <Box>
         <Image src={imageUrl} alt="Login" />
-        <Box>
+        <Wrapper>
           <TextField variant="standard" />
           <TextField variant="standard" />
           <Button variant="contained">Login</Button>
           <Button>Create an Account</Button>
-        </Box>
+        </Wrapper>
       </Box>
     </Component>
   );
