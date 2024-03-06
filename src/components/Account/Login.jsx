@@ -12,6 +12,7 @@ const Image = styled('img')({
   margin: "auto",
   display: "flex",
   padding: "50px 0 0",
+  & > div
 });
 
 const Wrapper = styled(Box)`
