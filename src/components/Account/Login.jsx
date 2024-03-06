@@ -18,6 +18,8 @@ const Wrapper = styled(Box)`
   padding: 25px 35px;
   display: flex;
   flex: 1;
+  flex-direction: column;
+
 
 `
 
