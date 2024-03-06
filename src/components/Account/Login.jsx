@@ -17,6 +17,7 @@ const Image = styled('img')({
 const Wrapper = styled(Box)`
   padding: 25px 35px;
   display: flex;
+  
 `
 
 const Login = () => {
