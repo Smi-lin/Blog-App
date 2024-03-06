@@ -12,7 +12,7 @@ const Image = styled('img')({
   margin: "auto",
   display: "flex",
   padding: "50px 0 0",
-  & > div
+  
 });
 
 const Wrapper = styled(Box)`
@@ -20,7 +20,9 @@ const Wrapper = styled(Box)`
   display: flex;
   flex: 1;
   flex-direction: column;
-
+  & > div, & > button {
+    
+  }
 
 `
 
