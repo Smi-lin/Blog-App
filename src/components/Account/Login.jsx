@@ -21,7 +21,7 @@ const Wrapper = styled(Box)`
   flex: 1;
   flex-direction: column;
   & > div, & > button {
-    
+    margin-top: 20px;
   }
 
 `
