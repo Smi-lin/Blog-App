@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, TextField, Button, styled } from "@mui/material";
+import { Box, TextField, Button, styled, Typography } from "@mui/material";
 
 const Component = styled(Box)`
   width: 400px;
